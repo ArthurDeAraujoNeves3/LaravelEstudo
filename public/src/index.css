@@ -1,0 +1,35 @@
+@import "./styles/Variables.css";
+
+/* Reset das configurações padrões do site */
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+/* Título */
+@font-face {
+
+    font-family: "Title";
+    src: url("./assets/fonts/Title/Satoshi-Black.ttf");
+
+}
+/* Texto */
+@font-face {
+
+    font-family: "Text";
+    src: url("./assets/fonts/Text/Satoshi-Bold.ttf");
+
+}
+
+body {
+
+    background-color: var(--bg);
+    color: var(--text);
+    overflow-x: hidden;
+    font-family: "Text";
+
+}
